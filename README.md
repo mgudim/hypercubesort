@@ -1,2 +1,2 @@
 # hypercubesort
-Java implementation of HypercubeSort algorithm.
+Java implementation of HypercubeSort algorithm. Conceptually, the algorithm is very similar to HeapSort - it uses a spacialized data structure for fast extraction of the minimum element. The difference is that it uses a HyperCube instead of a heap. In fact, as an [accompanying paper](docs/ordered_dags.pdf) shows, any directed acyclic graph can be converted into a data structure (ordered dag) with priority queue interface.
